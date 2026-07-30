@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parag Solanki — Acceleration Manager, i-Hub Gujarat</title>
+<meta name="description" content="Parag Solanki, Acceleration Manager at i-Hub Gujarat. Startup ecosystem enabler, mentor to 80+ founders, IPR & innovation strategist." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="blueprint" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark">PS</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about"><span>01</span>About</a>
+      <a href="#expertise"><span>02</span>Practice</a>
+      <a href="#experience"><span>03</span>Experience</a>
+      <a href="#portfolio"><span>04</span>Portfolio</a>
+      <a href="#contact"><span>05</span>Contact</a>
+    </nav>
+    <a href="#contact" class="nav__cta">Get in touch</a>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <div class="drawer__top">
+    <span class="nav__mark">PS</span>
+    <button class="drawer__close" id="drawerClose" aria-label="Close menu">&times;</button>
+  </div>
+  <nav class="drawer__links" aria-label="Mobile">
+    <a href="#about"><span>01</span>About</a>
+    <a href="#expertise"><span>02</span>Practice</a>
+    <a href="#experience"><span>03</span>Experience</a>
+    <a href="#portfolio"><span>04</span>Portfolio</a>
+    <a href="#contact"><span>05</span>Contact</a>
+  </nav>
+  <a href="mailto:parag@ihubgujarat.in" class="drawer__email">parag@ihubgujarat.in</a>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow reveal-in">i-Hub Gujarat &nbsp;·&nbsp; A Government of Gujarat Enterprise</p>
+      <h1 class="hero__name reveal-in">Parag<br>Solanki</h1>
+      <p class="hero__role reveal-in">Acceleration Manager &nbsp;—&nbsp; Startup Ecosystem Enabler &amp; IPR Strategist</p>
+      <p class="hero__thesis reveal-in">Reinventing the ecosystem that carries Gujarat's next generation of entrepreneurs from first idea to funded, protected enterprise.</p>
+      <div class="hero__actions reveal-in">
+        <a href="#contact" class="btn btn--primary" data-magnetic>Connect with Parag</a>
+        <a href="#experience" class="btn btn--ghost">View experience</a>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal-in">
+      <svg class="seal" id="seal" viewBox="0 0 320 320" aria-hidden="true">
+        <circle class="seal__ring seal__ring--outer" cx="160" cy="160" r="150" />
+        <circle class="seal__ring seal__ring--inner" cx="160" cy="160" r="128" />
+        <g class="seal__rotor">
+          <g class="seal__ticks" id="sealTicks"></g>
+          <path id="sealTextPath" d="M 160,32 A 128,128 0 1 1 159.9,32" fill="none"/>
+          <text class="seal__text">
+            <textPath href="#sealTextPath" startOffset="0%">STARTUP ECOSYSTEM ENABLER • MENTOR • IPR STRATEGIST •&#160;</textPath>
+          </text>
+        </g>
+        <text class="seal__mono" x="160" y="176" text-anchor="middle">EST. 2020</text>
+      </svg>
+
+      <div class="portrait__frame">
+        <img src="assets/portrait.jpeg" alt="Portrait of Parag Solanki" />
+        <span class="portrait__corner portrait__corner--tl"></span>
+        <span class="portrait__corner portrait__corner--tr"></span>
+        <span class="portrait__corner portrait__corner--bl"></span>
+        <span class="portrait__corner portrait__corner--br"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section about" id="about">
+  <div class="section__inner">
+    <div class="about__grid">
+      <div>
+        <p class="section__eyebrow reveal">01 &nbsp;/&nbsp; About</p>
+        <h2 class="section__title reveal">Where ambition meets execution</h2>
+      </div>
+      <p class="about__body reveal">
+        For over five years, Parag Solanki has worked at the point where early-stage ambition turns
+        into disciplined execution — helping founders convert raw ideas into ventures ready for the
+        market, for investors, and for protection under law. As Acceleration Manager at i-Hub Gujarat,
+        a Government of Gujarat enterprise, he leads incubation and acceleration for the state's
+        Semiconductor, Deep Tech, FinTech, Cybersecurity, ICT, and modern-commerce startups —
+        guiding each through the full arc from first prototype to scale.
+      </p>
+    </div>
+
+    <div class="ledger reveal" id="ledger">
+      <p class="ledger__title">Impact, on record</p>
+      <div class="ledger__row">
+        <span class="ledger__num" data-count="5" data-suffix="+">0</span>
+        <span class="ledger__leader"></span>
+        <span class="ledger__label">Years active in the ecosystem</span>
+      </div>
+      <div class="ledger__row">
+        <span class="ledger__num" data-count="80" data-suffix="+">0</span>
+        <span class="ledger__leader"></span>
+        <span class="ledger__label">Startups mentored directly</span>
+      </div>
+      <div class="ledger__row">
+        <span class="ledger__num" data-count="1800" data-suffix="+">0</span>
+        <span class="ledger__leader"></span>
+        <span class="ledger__label">IPR &amp; patent filings coordinated</span>
+      </div>
+      <div class="ledger__row ledger__row--signal">
+        <span class="ledger__num" data-count="45" data-suffix="%">0</span>
+        <span class="ledger__leader"></span>
+        <span class="ledger__label">IPR grant rate achieved</span>
+      </div>
+      <div class="ledger__row">
+        <span class="ledger__num" data-count="3" data-suffix="">0</span>
+        <span class="ledger__leader"></span>
+        <span class="ledger__label">Patents held personally, published</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERTISE ================= -->
+<section class="section expertise" id="expertise">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">02 &nbsp;/&nbsp; Areas of Practice</p>
+    <h2 class="section__title reveal">Where ideas are engineered into enterprises</h2>
+
+    <div class="nodes">
+      <article class="node reveal">
+        <span class="node__mark"></span>
+        <h3>Program &amp; acceleration leadership</h3>
+        <p>Designs and leads large-scale incubation and acceleration programs — including flagship
+          state initiatives such as M2M and Startup Srujan — that convert early-stage ideas into
+          investable ventures.</p>
+      </article>
+
+      <article class="node reveal">
+        <span class="node__mark"></span>
+        <h3>Strategic mentorship</h3>
+        <p>Has personally mentored more than 80 startups and innovators, translating hard-won
+          experience into the direction, introductions, and resources founders need to launch and
+          scale with confidence.</p>
+      </article>
+
+      <article class="node reveal">
+        <span class="node__mark"></span>
+        <h3>IPR &amp; innovation excellence</h3>
+        <p>Directed the filing of over 1,800 IPR and patent applications with a grant rate exceeding
+          45% — while personally holding three published patents of his own.</p>
+      </article>
+
+      <article class="node reveal">
+        <span class="node__mark"></span>
+        <h3>Ecosystem building &amp; resource mobilization</h3>
+        <p>Builds durable bridges between industry, academia, and government — securing the
+          partnerships and funding that keep Gujarat's innovation pipeline moving forward.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section experience" id="experience">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">03 &nbsp;/&nbsp; Experience</p>
+    <h2 class="section__title reveal">A career built inside the ecosystem</h2>
+
+    <div class="timeline">
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <p class="timeline__date">Feb 2026 — Present &nbsp;·&nbsp; Ahmedabad</p>
+          <h3>Acceleration Manager, i-Hub Gujarat</h3>
+          <p>Leading incubation and acceleration for Semiconductor, Deep Tech, FinTech,
+            Cybersecurity, ICT, and modern-commerce startups. Directing flagship programs —
+            including M2M and Startup Srujan — and overseeing 1,800+ IPR and patent filings
+            across the ecosystem.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <p class="timeline__date">Feb 2023 — Jan 2026 &nbsp;·&nbsp; Rajkot</p>
+          <h3>Senior Incubation Officer, MUIIR — Marwadi University</h3>
+          <p>Supported founders and student innovators through pre-incubation and incubation, led
+            IPR awareness initiatives, and built industry–academia collaboration within Marwadi
+            University's entrepreneurship ecosystem.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="education reveal">
+      <p class="section__eyebrow">Education &amp; credentials</p>
+      <ul class="education__list">
+        <li><span>MBA</span> — Dr. Baba Saheb Ambedkar Open University</li>
+        <li><span>B.E., Electronics &amp; Communication</span> — Gujarat Technological University, Ahmedabad (2016–2020)</li>
+        <li><span>Certified Innovation Ambassador</span> — Ministry of Education</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section class="section portfolio" id="portfolio">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">04 &nbsp;/&nbsp; Portfolio</p>
+    <h2 class="section__title reveal">The programs and sectors he has shaped</h2>
+
+    <div class="portfolio__grid">
+      <div class="pcard reveal">
+        <span class="pcard__index">A</span>
+        <h3>M2M Program</h3>
+        <p>Flagship acceleration initiative directed at i-Hub Gujarat.</p>
+      </div>
+      <div class="pcard reveal">
+        <span class="pcard__index">B</span>
+        <h3>Startup Srujan</h3>
+        <p>Statewide innovation and incubation program.</p>
+      </div>
+      <div class="pcard reveal">
+        <span class="pcard__index">C</span>
+        <h3>Sector focus</h3>
+        <p>Semiconductor · Deep Tech · FinTech · Cybersecurity · ICT · Modern Commerce</p>
+      </div>
+      <div class="pcard reveal">
+        <span class="pcard__index">D</span>
+        <h3>IPR facilitation</h3>
+        <p>1,800+ filings coordinated at a 45%+ grant rate; three patents held personally.</p>
+      </div>
+    </div>
+
+    <div class="marquee reveal" aria-label="Core skills">
+      <div class="marquee__track">
+        <span>Technology Incubation</span><span>·</span>
+        <span>Startup Acceleration</span><span>·</span>
+        <span>Innovation Strategy</span><span>·</span>
+        <span>IPR &amp; Patents</span><span>·</span>
+        <span>Mentorship</span><span>·</span>
+        <span>Ecosystem Building</span><span>·</span>
+        <span>Program Management</span><span>·</span>
+        <span>VLSI</span><span>·</span>
+        <span>Laser</span><span>·</span>
+        <span>Technology Incubation</span><span>·</span>
+        <span>Startup Acceleration</span><span>·</span>
+        <span>Innovation Strategy</span><span>·</span>
+        <span>IPR &amp; Patents</span><span>·</span>
+        <span>Mentorship</span><span>·</span>
+        <span>Ecosystem Building</span><span>·</span>
+        <span>Program Management</span><span>·</span>
+        <span>VLSI</span><span>·</span>
+        <span>Laser</span><span>·</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUOTE ================= -->
+<section class="quote">
+  <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+  <p class="reveal">Passionate about nation-building and youth development, Parag continues to set
+    new benchmarks for the Gujarat startup ecosystem through strategic partnerships and relentless
+    support for the next generation of innovators.</p>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<footer class="section contact" id="contact">
+  <div class="section__inner contact__inner">
+    <div class="reveal">
+      <p class="section__eyebrow">05 &nbsp;/&nbsp; Contact</p>
+      <h2 class="section__title">Let's build something worth scaling</h2>
+      <p class="contact__body">For mentorship, partnerships, or program collaboration, reach out
+        directly — every message is read personally.</p>
+    </div>
+
+    <div class="contact__links reveal">
+      <a href="mailto:parag@ihubgujarat.in"><span>Email</span>parag@ihubgujarat.in</a>
+      <a href="tel:+919727330327"><span>Phone</span>+91 97273 30327</a>
+      <a href="https://www.linkedin.com/in/er-parag-solanki-043259188/" target="_blank" rel="noopener"><span>LinkedIn</span>er-paragsolanki &#8599;</a>
+    </div>
+  </div>
+  <div class="section__inner contact__bottom">
+    <span>&copy; <span id="year"></span> Parag Solanki</span>
+    <span>i-Hub Gujarat — A Government of Gujarat Enterprise</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
